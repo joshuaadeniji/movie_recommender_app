@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 5000;
 // Security middleware
 app.use(helmet());
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://your-frontend-domain.com'],
+  origin: ['http://localhost:5173', 'https://mymovierecommenderapp.netlify.app/'],
   credentials: true
 }));
 app.use(morgan('combined'));

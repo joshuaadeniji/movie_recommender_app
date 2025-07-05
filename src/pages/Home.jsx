@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import MovieCard from '../components/MovieCard';
 import Loading from '../components/Loading';
 import SearchBar from '../components/SearchBar';
